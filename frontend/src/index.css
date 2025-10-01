@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small custom helpers */
+.container {
+  @apply max-w-3xl mx-auto bg-white p-6 rounded-lg shadow-sm mt-6;
+}
+.task-card {
+  @apply border p-4 rounded-lg mb-4 flex justify-between;
+}
+.navbar {
+  @apply flex justify-between items-center p-4 bg-indigo-700 text-white;
+}
+.filters {
+  @apply flex gap-3 mb-4;
+}
